@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "yarn workspaces run build",
+    "gi": "yarn generate-react-icons && yarn generate-vue-icons && yarn generate-vue2-icons",
+    "generate-react-icons": "env PACKAGE=react node scripts/generate.js",
+    "generate-vue-icons": "env PACKAGE=vue node scripts/generate.js",
+    "generate-vue2-icons": "env PACKAGE=vue2 node scripts/generate.js"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "svgo": "^3.3.2"
+  }
+}
