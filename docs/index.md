@@ -42,3 +42,32 @@ features:
     details: Duotone icons
 ---
 
+<script setup>
+import { VPTeamMembers, VPTeamPage, VPTeamPageTitle } from 'vitepress/theme'
+
+const members = [
+  {
+    avatar: 'https://www.github.com/dimagroshev.png',
+    name: 'Dima Groshev',
+    title: 'Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/dimagroshev' }
+    ]
+  },
+  {
+    avatar: 'https://www.github.com/vudav.png',
+    name: 'Valery Liubimov',
+    title: 'Developer',
+    links: [
+      { icon: 'github', link: 'https://github.com/vudav' }
+    ]
+  },
+]
+</script>
+
+<VPTeamPage>
+  <VPTeamPageTitle>
+    <template #title>Our Team</template>
+  </VPTeamPageTitle>
+  <VPTeamMembers size="medium" :members="members" />
+</VPTeamPage>
