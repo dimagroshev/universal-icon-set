@@ -104,7 +104,7 @@ fs.readFile(iconsTree, 'utf8', (err, iconsData) => {
   // Generate JSX components for each SVG file
   function generateComponent(icon) {
     return new Promise((resolve, reject) => {
-      const componentName = toPascalCase(`${icon.name}-${icon.type}`);
+      const componentName = toPascalCase(`${icon.name}`);
       const componentPath = path.join(outputDir, `${componentName}.${fileExtension}`);
 
       fs.readFile(path.join(icon.path), 'utf8', async (err, data) => {

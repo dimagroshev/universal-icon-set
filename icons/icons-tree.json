@@ -3,7 +3,7 @@
     "Play": [
       {
         "fileName": "Play",
-        "name": "Play",
+        "name": "PlayLine",
         "type": "Line",
         "category": "Actions",
         "hasSharp": true,
@@ -11,7 +11,7 @@
       },
       {
         "fileName": "Play",
-        "name": "Play",
+        "name": "PlayDuotone",
         "type": "Duotone",
         "category": "Actions",
         "hasSharp": true,
@@ -19,7 +19,7 @@
       },
       {
         "fileName": "Play",
-        "name": "Play",
+        "name": "PlaySolid",
         "type": "Solid",
         "category": "Actions",
         "hasSharp": true,
@@ -31,7 +31,7 @@
     "LeftArrow": [
       {
         "fileName": "Left Arrow",
-        "name": "LeftArrow",
+        "name": "LeftArrowLine",
         "type": "Line",
         "category": "Arrows",
         "hasSharp": true,
@@ -39,7 +39,7 @@
       },
       {
         "fileName": "Left Arrow",
-        "name": "LeftArrow",
+        "name": "LeftArrowDuotone",
         "type": "Duotone",
         "category": "Arrows",
         "hasSharp": true,
@@ -47,7 +47,7 @@
       },
       {
         "fileName": "Left Arrow",
-        "name": "LeftArrow",
+        "name": "LeftArrowSolid",
         "type": "Solid",
         "category": "Arrows",
         "hasSharp": true,
@@ -57,7 +57,7 @@
     "Scale": [
       {
         "fileName": "Scale",
-        "name": "Scale",
+        "name": "ScaleLine",
         "type": "Line",
         "category": "Arrows",
         "hasSharp": true,
@@ -65,7 +65,7 @@
       },
       {
         "fileName": "Scale",
-        "name": "Scale",
+        "name": "ScaleDuotone",
         "type": "Duotone",
         "category": "Arrows",
         "hasSharp": true,
@@ -73,7 +73,7 @@
       },
       {
         "fileName": "Scale",
-        "name": "Scale",
+        "name": "ScaleSolid",
         "type": "Solid",
         "category": "Arrows",
         "hasSharp": true,
@@ -85,7 +85,7 @@
     "FileAdd": [
       {
         "fileName": "File Add",
-        "name": "FileAdd",
+        "name": "FileAddLine",
         "type": "Line",
         "category": "Files",
         "hasSharp": true,
@@ -93,7 +93,7 @@
       },
       {
         "fileName": "File Add",
-        "name": "FileAdd",
+        "name": "FileAddDuotone",
         "type": "Duotone",
         "category": "Files",
         "hasSharp": true,
@@ -101,7 +101,7 @@
       },
       {
         "fileName": "File Add",
-        "name": "FileAdd",
+        "name": "FileAddSolid",
         "type": "Solid",
         "category": "Files",
         "hasSharp": true,

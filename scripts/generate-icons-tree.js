@@ -29,7 +29,7 @@ function createIconsTree(folderPath, isFree = true) {
         const hasSharp = fs.existsSync(path.join(categoryPath, `${iconName} Sharp.svg`));
         const result = {
           fileName: iconName,
-          name: componentName,
+          name: `${componentName}${type}`,
           type,
           category: categoryName,
           hasSharp,
@@ -37,8 +37,8 @@ function createIconsTree(folderPath, isFree = true) {
         };
 
         iconsTree[categoryName] = iconsTree[categoryName] || {};
-        iconsTree[categoryName][result.name] = iconsTree[categoryName][result.name] || [];
-        iconsTree[categoryName][result.name].push(result);
+        iconsTree[categoryName][componentName] = iconsTree[categoryName][componentName] || [];
+        iconsTree[categoryName][componentName].push(result);
       });
     });
   });
