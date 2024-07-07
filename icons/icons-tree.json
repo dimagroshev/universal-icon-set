@@ -1,0 +1,112 @@
+{
+  "Actions": {
+    "Play": [
+      {
+        "fileName": "Play",
+        "name": "Play",
+        "type": "Line",
+        "category": "Actions",
+        "hasSharp": true,
+        "isFree": true
+      },
+      {
+        "fileName": "Play",
+        "name": "Play",
+        "type": "Duotone",
+        "category": "Actions",
+        "hasSharp": true,
+        "isFree": false
+      },
+      {
+        "fileName": "Play",
+        "name": "Play",
+        "type": "Solid",
+        "category": "Actions",
+        "hasSharp": true,
+        "isFree": false
+      }
+    ]
+  },
+  "Arrows": {
+    "LeftArrow": [
+      {
+        "fileName": "Left Arrow",
+        "name": "LeftArrow",
+        "type": "Line",
+        "category": "Arrows",
+        "hasSharp": true,
+        "isFree": true
+      },
+      {
+        "fileName": "Left Arrow",
+        "name": "LeftArrow",
+        "type": "Duotone",
+        "category": "Arrows",
+        "hasSharp": true,
+        "isFree": false
+      },
+      {
+        "fileName": "Left Arrow",
+        "name": "LeftArrow",
+        "type": "Solid",
+        "category": "Arrows",
+        "hasSharp": true,
+        "isFree": false
+      }
+    ],
+    "Scale": [
+      {
+        "fileName": "Scale",
+        "name": "Scale",
+        "type": "Line",
+        "category": "Arrows",
+        "hasSharp": true,
+        "isFree": true
+      },
+      {
+        "fileName": "Scale",
+        "name": "Scale",
+        "type": "Duotone",
+        "category": "Arrows",
+        "hasSharp": true,
+        "isFree": false
+      },
+      {
+        "fileName": "Scale",
+        "name": "Scale",
+        "type": "Solid",
+        "category": "Arrows",
+        "hasSharp": true,
+        "isFree": false
+      }
+    ]
+  },
+  "Files": {
+    "FileAdd": [
+      {
+        "fileName": "File Add",
+        "name": "FileAdd",
+        "type": "Line",
+        "category": "Files",
+        "hasSharp": true,
+        "isFree": true
+      },
+      {
+        "fileName": "File Add",
+        "name": "FileAdd",
+        "type": "Duotone",
+        "category": "Files",
+        "hasSharp": true,
+        "isFree": false
+      },
+      {
+        "fileName": "File Add",
+        "name": "FileAdd",
+        "type": "Solid",
+        "category": "Files",
+        "hasSharp": true,
+        "isFree": false
+      }
+    ]
+  }
+}

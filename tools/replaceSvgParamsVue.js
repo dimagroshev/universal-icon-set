@@ -12,6 +12,12 @@ const replaceSvgParamsVue = (svg) => {
     .replace(/stroke="#000"/g, () => {
       return `:stroke="color"`;
     })
+    .replace(/fill="#BABDCC"/g, () => {
+      return `:fill="secondColor"`;
+    })
+    .replace(/stroke="#BABDCC"/g, () => {
+      return `:stroke="secondColor"`;
+    })
     .replace(/strokeWidth="(\d*\.\d+)"/g, () => {
       return `:strokeWidth="strokeWidth"`;
     });
