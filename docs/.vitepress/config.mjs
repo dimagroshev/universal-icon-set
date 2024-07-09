@@ -7,8 +7,8 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Icons', link: '/icons' },
-      { text: 'Guide', link: '/guide' },
+      { text: 'Icons', link: '/icons/index.md' },
+      { text: 'Guide', link: '/guide/index.md' },
       { text: 'Packages', link: '/packages' }
     ],
 
@@ -33,5 +33,14 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/dimagroshev/universal-icon-set' }
     ]
+  },
+
+  vite: {
+    resolve: {
+      alias: {
+        '@node_modules': './node_modules',
+        '@icons': '../icons',
+      }
+    }
   }
 })
