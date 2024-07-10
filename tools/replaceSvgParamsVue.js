@@ -18,8 +18,8 @@ const replaceSvgParamsVue = (svg) => {
     .replace(/stroke="#BABDCC"/g, () => {
       return `:stroke="secondColor"`;
     })
-    .replace(/strokeWidth="(\d*\.\d+)"/g, () => {
-      return `:strokeWidth="strokeWidth"`;
+    .replace(/stroke-width="(\d*\.\d+)"/g, () => {
+      return `:stroke-width="strokeWidth"`;
     });
   return replacedSvg;
 }

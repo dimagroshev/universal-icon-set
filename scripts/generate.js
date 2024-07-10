@@ -35,10 +35,10 @@ const TEMPLATE_SVG_SHARP = '{SVG_SHARP}';
 const formattedSvg = (svg) => {
   let optimizedSvg;
   optimizedSvg = optimizeSVG(svg);
-  optimizedSvg = camelCaseSvgParams(optimizedSvg);
   switch (package) {
     case 'react':
       optimizedSvg = replaceSvgParamsReact(optimizedSvg);
+      optimizedSvg = camelCaseSvgParams(optimizedSvg);
       break;
     case 'vue':
     case 'vue2':
