@@ -6,17 +6,9 @@ Implementation icon library for react applications
 
 ::: code-group
 
-```sh [yarn]
-yarn add @123done/universal-icon-set-react
-```
-
-```sh [npm]
-npm install @123done/universal-icon-set-react
-```
-
-```sh [pnpm]
-pnpm install @123done/universal-icon-set-react
-```
+<!--@include:../../.vitepress/components/md-parts/react/yarn.md-->
+<!--@include:../../.vitepress/components/md-parts/react/npm.md-->
+<!--@include:../../.vitepress/components/md-parts/react/pnpm.md-->
 
 :::
 
@@ -24,21 +16,8 @@ pnpm install @123done/universal-icon-set-react
 
 Additional props can be passed to adjust the icon:
 
-```jsx
-import { Expand } from '@123done/universal-icon-set-react';
-
-// Usage
-const App = () => {
-  return <Expand color="red" size={48} />;
-};
-
-export default App;
-```
+<!--@include:../../.vitepress/components/md-parts/react/code.md-->
 
 ## Props
 
-| name                  | type      | default      |
-| --------------------- | --------- | ------------ |
-| `size`                | *number*  | 24           |
-| `color`               | *string*  | currentColor |
-| `strokeWidth`         | *number*  | 2            |
+<!--@include:../../.vitepress/components/md-parts/props.md-->

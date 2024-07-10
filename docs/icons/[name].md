@@ -22,56 +22,16 @@ const { params } = useData()
 
   ::: code-group
 
-  ```jsx-vue [React]
-  import { {{ params.name }} } from '@123done/universal-icon-set-react';
-
-  const App = () => {
-    return (
-      <{{ params.name }} />
-    );
-  };
-
-  export default App;
-  ```
-
-  ```vue-vue [Vue 3]
-  <script setup>
-  import { {{ params.name }} } from '@123done/universal-icon-set-vue';
-  </script>
-
-  <template>
-    <{{ params.name }} />
-  </template>
-  ```
-
-  ```vue-vue [Vue 2]
-  <script>
-  import { {{ params.name }} } from '@123done/universal-icon-set-vue2';
-
-  export default {
-    components: {
-      {{ params.name }}
-    }
-  }
-  </script>
-
-  <template>
-    <{{ params.name }} />
-  </template>
-  ```
+  <!--@include:../.vitepress/components/md-parts/react/code.md-->
+  <!--@include:../.vitepress/components/md-parts/vue/code.md-->
+  <!--@include:../.vitepress/components/md-parts/vue2/code.md-->
 
   :::
 </div>
 
 ## Props
 
-| name                  | type      | default      | description |
-| --------------------- | --------- | ------------ | ----------- |
-| `size`                | *number*  | 24           | Size of the icon on px |
-| `color`               | *string*  | currentColor | Color of the icon |
-| `secondColor`         | *string*  | #BABDCC      | Second color for duotone icon |
-| `strokeWidth`         | *number*  | 2            | Stroke width of the icon |
-| `sharp`               | *boolean* | false        | Whether the icon should be sharp or rounded |
+<!--@include:../.vitepress/components/md-parts/props.md-->
 
 <style>
   .icon-preview-block {

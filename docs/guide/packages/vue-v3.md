@@ -10,17 +10,9 @@ This version for Vue 3, For Vue 2 go to [@123done/vue2-icons](vue-v2.md)
 
 ::: code-group
 
-```sh [yarn]
-yarn add @123done/universal-icon-set-vue
-```
-
-```sh [npm]
-npm install @123done/universal-icon-set-vue
-```
-
-```sh [pnpm]
-pnpm install @123done/universal-icon-set-vue
-```
+<!--@include:../../.vitepress/components/md-parts/vue/yarn.md-->
+<!--@include:../../.vitepress/components/md-parts/vue/npm.md-->
+<!--@include:../../.vitepress/components/md-parts/vue/pnpm.md-->
 
 :::
 
@@ -28,23 +20,8 @@ pnpm install @123done/universal-icon-set-vue
 
 Additional props can be passed to adjust the icon:
 
-```vue
-<script setup>
-import { Expand } from '@123done/universal-icon-set-vue';
-</script>
-
-<template>
-  <Expand
-    color="red"
-    :size="32"
-  />
-</template>
-```
+<!--@include:../../.vitepress/components/md-parts/vue/code.md-->
 
 ## Props
 
-| name                  | type      | default      |
-| --------------------- | --------- | ------------ |
-| `size`                | *number*  | 24           |
-| `color`               | *string*  | currentColor |
-| `strokeWidth`         | *number*  | 2            |
+<!--@include:../../.vitepress/components/md-parts/props.md-->

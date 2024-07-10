@@ -10,17 +10,9 @@ Implementation of the icon library for React applications.
 
 ::: code-group
 
-```sh [yarn]
-yarn add @123done/universal-icon-set-react
-```
-
-```sh [npm]
-npm install @123done/universal-icon-set-react
-```
-
-```sh [pnpm]
-pnpm install @123done/universal-icon-set-react
-```
+<!--@include:../.vitepress/components/md-parts/react/yarn.md-->
+<!--@include:../.vitepress/components/md-parts/react/npm.md-->
+<!--@include:../.vitepress/components/md-parts/react/pnpm.md-->
 
 :::
 
@@ -32,17 +24,9 @@ Implementation of the icon library for Vue 3 applications.
 
 ::: code-group
 
-```sh [yarn]
-yarn add @123done/universal-icon-set-vue
-```
-
-```sh [npm]
-npm install @123done/universal-icon-set-vue
-```
-
-```sh [pnpm]
-pnpm install @123done/universal-icon-set-vue
-```
+<!--@include:../.vitepress/components/md-parts/vue/yarn.md-->
+<!--@include:../.vitepress/components/md-parts/vue/npm.md-->
+<!--@include:../.vitepress/components/md-parts/vue/pnpm.md-->
 
 :::
 
@@ -54,17 +38,9 @@ Implementation of the icon library for Vue 2 applications.
 
 ::: code-group
 
-```sh [yarn]
-yarn add @123done/universal-icon-set-vue2
-```
-
-```sh [npm]
-npm install @123done/universal-icon-set-vue2
-```
-
-```sh [pnpm]
-pnpm install @123done/universal-icon-set-vue2
-```
+<!--@include:../.vitepress/components/md-parts/vue2/yarn.md-->
+<!--@include:../.vitepress/components/md-parts/vue2/npm.md-->
+<!--@include:../.vitepress/components/md-parts/vue2/pnpm.md-->
 
 :::
 
