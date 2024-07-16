@@ -12,6 +12,26 @@
     type: {
       type: String,
       default: 'Line'
+    },
+    size: {
+      type: Number,
+      default: 24
+    },
+    strokeWidth: {
+      type: Number,
+      default: 2
+    },
+    color: {
+      type: String,
+      default: 'currentColor'
+    },
+    secondColor: {
+      type: String,
+      default: '#BABDCC'
+    },
+    sharp: {
+      type: Boolean,
+      default: false
     }
   });
 
@@ -26,6 +46,7 @@
   const asyncComponent = shallowRef(null);
 
   watchEffect(() => {
+    console.log(props.type); // FIX: hack to trigger reactivity
     asyncComponent.value = defineAsyncComponent(() =>
       import(`../../../node_modules/@123done/universal-icon-set-vue/lib/icons/${mainIcon.value.name}.vue`) // FIX: path to icons for dynamic import
         .catch(error => {
@@ -37,7 +58,14 @@
 
 <template>
   <button class="icon" @click="go(`/icons/${mainIcon.name}`)">
-    <component :is="asyncComponent" />
+    <component
+      :is="asyncComponent"
+      :size="size"
+      :strokeWidth="strokeWidth"
+      :color="color"
+      :secondColor="secondColor"
+      :sharp="sharp"
+    />
     <div class="icon__tooltip">
       {{ mainIcon.name }}
     </div>
