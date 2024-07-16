@@ -27,6 +27,8 @@ coverage
 *.sln
 *.sw?
 
+*.tar.gz
+
 *.tsbuildinfo
 
 lib/icons

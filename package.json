@@ -2,6 +2,7 @@
   "private": true,
   "scripts": {
     "build": "yarn workspaces run build",
+    "archive": "yarn workspaces run archive",
     "gi": "yarn generate-icons-tree && yarn generate-react-icons && yarn generate-vue-icons && yarn generate-vue2-icons",
     "generate-icons-tree": "node scripts/generate-icons-tree.js",
     "generate-react-icons": "env PACKAGE=react node scripts/generate.js",
